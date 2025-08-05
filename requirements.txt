@@ -1,0 +1,10 @@
+pandas
+seaborn 
+numpy
+matplotlib
+
+-e .
+
+#. refers to the current directory (where setup.py is).
+#-e tells pip to install it in editable mode.
+#This creates a link in the environment pointing to your local project directory.
